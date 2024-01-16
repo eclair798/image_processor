@@ -8,6 +8,8 @@ public:
 
     explicit Pipeline(const DescriptorColl& dc);
 
+    void Reset();
+
     ~Pipeline();
 
     void Apply(Image& image);

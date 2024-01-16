@@ -23,7 +23,7 @@ public:
         unsigned int header_size;
         unsigned int width;
         unsigned int height;
-        uint16_t colorplanes;
+        uint16_t color_planes;
         uint16_t bitsPerPixel;
         char garbage[GARB_SIZE];
 
@@ -44,6 +44,7 @@ public:
         RGB& operator=(const RGB& other) = default;
 
         bool operator==(const RGB& other) const;
+        bool operator!=(const RGB& other) const;
 
     public:
         static const uint8_t MAX = 255;

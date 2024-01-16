@@ -5,6 +5,10 @@ bool Image::RGB::operator==(const Image::RGB& other) const {
     return (this->r == other.r && this->g == other.g && this->b == other.b);
 }
 
+bool Image::RGB::operator!=(const Image::RGB& other) const {
+    return (this->r != other.r || this->g != other.g || this->b != other.b);
+}
+
 Image::RGBMatrix::RGBMatrix(size_t rows_n, size_t cols_n, Image::RGB def) {
     if (rows_n == 0 && cols_n == 0) {
         rows_num_ = 0;
@@ -136,7 +140,7 @@ void Image::ReadFile(const std::string& path) {
 
 void Image::WriteFile(const std::string& path) {
 
-    if (!path.ends_with(".bmp")) {
+    if (!(path.substr(path.size()-4, 4) == ".bmp")) {
         throw WrongFileFormatException("File for write must be in BMP format");
     }
 

@@ -1,0 +1,10 @@
+# ninja log v5
+48	366	7188223956460578	CMakeFiles/image_processor.dir/exceptions.cpp.obj	577c48168d650867
+1262	1631	7193292138690530	image_processor.exe	e6bb17ffd7f085f9
+43	804	7193292130475912	CMakeFiles/image_processor.dir/parser.cpp.obj	c5fa86f12e0a068e
+36	721	7193292129598591	CMakeFiles/image_processor.dir/filter.cpp.obj	a343f7cd30fe74d9
+692	1261	7193292135066076	CMakeFiles/image_processor.dir/filter_creators.cpp.obj	f47250510ddb008f
+24	1007	7193292132504407	CMakeFiles/image_processor.dir/image_processor.cpp.obj	c297752fd53fa34c
+16	1025	7193292132678357	CMakeFiles/image_processor.dir/application.cpp.obj	3c49657a37ef28eb
+49	1087	7193292133314904	CMakeFiles/image_processor.dir/pipeline.cpp.obj	3f56b4b12b25c29b
+29	692	7193292129338298	CMakeFiles/image_processor.dir/image.cpp.obj	4145beca6efbd160

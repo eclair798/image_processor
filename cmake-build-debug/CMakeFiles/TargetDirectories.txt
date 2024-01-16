@@ -1,3 +1,3 @@
-C:/Users/Yanaa/Study/c++/image_processor/cmake-build-debug/CMakeFiles/image_processor.dir
-C:/Users/Yanaa/Study/c++/image_processor/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Yanaa/Study/c++/image_processor/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Yanaa/Study/c++/projects/image_processor/cmake-build-debug/CMakeFiles/image_processor.dir
+C:/Users/Yanaa/Study/c++/projects/image_processor/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Yanaa/Study/c++/projects/image_processor/cmake-build-debug/CMakeFiles/rebuild_cache.dir

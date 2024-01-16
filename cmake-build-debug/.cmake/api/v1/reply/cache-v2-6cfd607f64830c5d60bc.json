@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Yanaa/Study/c++/image_processor/cmake-build-debug"
+			"value" : "c:/Users/Yanaa/Study/c++/projects/image_processor/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Yanaa/Study/c++/image_processor/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/Yanaa/Study/c++/projects/image_processor/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -626,18 +626,6 @@
 			"value" : ""
 		},
 		{
-			"name" : "CMAKE_GNUtoMS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Convert GNU import libraries to MS format (requires Visual Studio)"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "OFF"
-		},
-		{
 			"name" : "CMAKE_HOME_DIRECTORY",
 			"properties" : 
 			[
@@ -647,7 +635,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Yanaa/Study/c++/image_processor"
+			"value" : "C:/Users/Yanaa/Study/c++/projects/image_processor"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1263,7 +1251,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Yanaa/Study/c++/image_processor/cmake-build-debug"
+			"value" : "C:/Users/Yanaa/Study/c++/projects/image_processor/cmake-build-debug"
 		},
 		{
 			"name" : "Project_IS_TOP_LEVEL",
@@ -1287,7 +1275,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Yanaa/Study/c++/image_processor"
+			"value" : "C:/Users/Yanaa/Study/c++/projects/image_processor"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

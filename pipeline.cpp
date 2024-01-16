@@ -4,19 +4,28 @@
 
 Pipeline::Pipeline(const DescriptorColl& dc) {
     for (const FilterDescriptor& fd : dc) {
-        if (Application::NAMES.find(fd.filter_name) != Application::NAMES.end()) {
-            filters.push_back(Application::PRODUCER.at(fd.filter_name)(fd));
-        } else {
-            throw WrongFilterDescriptionException("Incorrect filter name");
+        try {
+            if (Application::NAMES.find(fd.filter_name) != Application::NAMES.end()) {
+                filters.push_back(Application::PRODUCER.at(fd.filter_name)(fd));
+            } else {
+                throw WrongFilterDescriptionException("Incorrect filter name");
+            }
+        } catch (...) {
+            Reset();
+            throw;
         }
     }
 }
 
-Pipeline::~Pipeline() {
+void Pipeline::Reset() {
     for (Filter* filter : filters) {
         delete filter;
     }
     filters.clear();
+}
+
+Pipeline::~Pipeline() {
+    Reset();
 }
 
 void Pipeline::Apply(Image& image) {
@@ -24,3 +33,5 @@ void Pipeline::Apply(Image& image) {
         filter->ApplyFilter(image);
     }
 }
+
+

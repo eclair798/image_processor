@@ -45,8 +45,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Yanaa/Study/c++/image_processor/cmake-build-debug",
-		"source" : "C:/Users/Yanaa/Study/c++/image_processor"
+		"build" : "C:/Users/Yanaa/Study/c++/projects/image_processor/cmake-build-debug",
+		"source" : "C:/Users/Yanaa/Study/c++/projects/image_processor"
 	},
 	"version" : 
 	{
